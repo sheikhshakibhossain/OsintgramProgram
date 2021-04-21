@@ -22,6 +22,7 @@ echo "$Color_yellow
 
       $Color_end" ;
       
+rm -rf osintgram ;      
 cd ~ ;
 sudo apt install wget git python3 python3-pip libncurses5-dev -y ;
 
